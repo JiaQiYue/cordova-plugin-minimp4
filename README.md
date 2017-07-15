@@ -36,8 +36,10 @@ var error = function (fail) {//失败回调函数
 ```
 
 ## Demo
+![](http://www.markcoding.cn/demo.gif)
 
 
 ## 注意的地方：
 1. 在添加插件成功后，使用`cordova build android`或者使用WebStorm打包时，可能会出现乱码的情况，此时可以参考[此链接](http://blog.csdn.net/u011054333/article/details/54175641)解决
 2. 有问题可以联系邮箱`coderlius@qq.com`
+3. **欢迎star,issue**

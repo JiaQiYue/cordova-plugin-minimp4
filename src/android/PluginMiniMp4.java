@@ -31,9 +31,11 @@ public class PluginMiniMp4 extends CordovaPlugin {
         super.onActivityResult(requestCode, resultCode, data);
         switch (resultCode){
             case MiniMp4Activity.OK:
-                context.success(data.getStringExtra("path"));
-                Toast.makeText(cordova.getActivity(), data.getStringExtra("path").toString(), Toast.LENGTH_SHORT).show();
-                break;
+                if(data!=null){
+                    context.success(data.getStringExtra("path"));
+                    Toast.makeText(cordova.getActivity(), data.getStringExtra("path").toString(), Toast.LENGTH_SHORT).show();
+                }
+               break;
             default:
                 context.success("null");
                 // Toast.makeText(this, "no mp4 data", Toast.LENGTH_SHORT).show();
