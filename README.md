@@ -36,7 +36,7 @@ var error = function (fail) {//失败回调函数
 ```
 
 ## Demo
-![http://www.markcoding.cn/demo.gif](http://www.markcoding.cn/demo.gif)
+[http://www.markcoding.cn/demo.gif](http://www.markcoding.cn/demo.gif)
 
 
 ## 注意的地方：
