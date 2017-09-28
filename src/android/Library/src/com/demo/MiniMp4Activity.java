@@ -214,7 +214,7 @@ public class MiniMp4Activity extends Activity
             mRecorder.setVideoEncoder(MediaRecorder
                     .VideoEncoder.H264);
             mRecorder.setVideoSize(720, 1280);
-            // 每秒 4帧
+            // 每秒 20帧
             mRecorder.setVideoFrameRate(20);
             mRecorder.setOutputFile(videoFile.getAbsolutePath());
             //设置录制视频的方向
